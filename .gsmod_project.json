@@ -1,0 +1,13 @@
+{
+    "author_email": "rupert.norman@nottingham.ac.uk",
+    "description": "Shikimate production in E. coli",
+    "author": "Rupert Norman",
+    "tests_dir": "tests",
+    "design_dir": "designs",
+    "conditions_file": "model_conditions.json",
+    "default_model": "e_coli_core.json",
+    "models": [
+        "e_coli_core.json"
+    ],
+    "name": "Untitled"
+}
