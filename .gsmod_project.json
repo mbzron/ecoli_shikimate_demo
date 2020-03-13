@@ -7,7 +7,8 @@
     "conditions_file": "model_conditions.json",
     "default_model": "e_coli_core.json",
     "models": [
-        "e_coli_core.json"
+        "e_coli_core.json",
+        "iJO1366.json"
     ],
     "name": "Untitled"
 }
