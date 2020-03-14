@@ -52,7 +52,7 @@ At this stage, the gsmodutils test utility can be run from the command line
 $ gsmodutils test
 ```
 
-which shows that the model supports growth on the expected substrates with the following output,
+which shows that the model supports growth on the expected substrates with the following output
 
 ```shell script
     --model::iJO1366.json::conditions::glc_growth
@@ -62,4 +62,9 @@ which shows that the model supports growth on the expected substrates with the f
     --model::iJO1366.json::conditions::xyl_growth
 ```
 
-where successful tests are displayed in green.
+These basic tests can be run at any time to monitor model behaviour after modification.
+
+One aim stated in Fujiwara *et al.* is to create a "xylose catabolic pathway that directly flows into the 
+TCA cycle without interfering glycolysis and PPP."
+
+![pentose phosphate pathway](./figures/pentose_phosphate_shadow.png)
