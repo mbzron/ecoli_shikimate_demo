@@ -66,5 +66,13 @@ These basic tests can be run at any time to monitor model behaviour after modifi
 
 One aim stated in Fujiwara *et al.* is to create a "xylose catabolic pathway that directly flows into the 
 TCA cycle without interfering glycolysis and PPP."
+The diagram below is a general (and simplified) scheme of the pentose phosphate pathway, 
 
 ![pentose phosphate pathway](./figures/pentose_phosphate_shadow.png)
+
+where 1 = glucose phosphorylation to glucose-6p; 2 = xylulose phosphorylation to xylulose-5p; 3 = transketolase 1, 
+phosphofructokinase, fructose-bisphosphate aldolase, topoisomerase; 4 = ribose-phosphate epimerase, ribulose-phosphate 
+epimerase, ...; 5 = isomerase; 6 = fructose-6p phosphorylation and cleavage; 7 = transketolase 2; 8 = ...; 
+and 9 = further glycolysis.
+
+ 
