@@ -46,7 +46,7 @@ print('growth rate (xyl):',sol.objective_value)
 project.save_conditions(m, 'xyl_growth')
 ```
 
-At this stage, the gsmodutils test utility can be run from the command line
+At this stage, the gsmodutils test utility can be executed from the command line
 
 ```shell script
 $ gsmodutils test
