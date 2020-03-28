@@ -2,7 +2,7 @@
   "pentose_phostpahate_pathway_xylose": {
     "description": "WT pentose phosphate pathway flux on xylose",
     "models": [
-      "e_coli_core.json"
+      "iJO1366.json"
     ],
     "required_reactions": [
       "XYLI1",
@@ -74,6 +74,6 @@
       ]
     },
     "designs": [],
-    "conditions": []
+    "conditions": ["xyl_growth"]
   }
 }
