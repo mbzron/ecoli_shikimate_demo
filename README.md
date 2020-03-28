@@ -75,4 +75,13 @@ phosphofructokinase, fructose-bisphosphate aldolase, topoisomerase; 4 = ribose-p
 epimerase, ...; 5 = isomerase; 6 = fructose-6p phosphorylation and cleavage; 7 = transketolase 2; 8 = ...; 
 and 9 = further glycolysis.
 
- 
+We want to monitor the activity of this pathway, so an 'essential pathway' test is made.
+
+To write an essential pathway test, store reaction flux ranges in a dictionary, and write a test file using
+
+```python
+project.add_essential_pathway(...)
+```
+
+specifying a test name, description, models, conditions, and reaction_fluxes.
+This essential pathway test can be run from the command line at any time with 'gsmodutils test'.
