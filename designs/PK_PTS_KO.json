@@ -1,0 +1,128 @@
+{
+    "description": "",
+    "name": "pyruvate kinase and PTS knock-out",
+    "base_model": "iJO1366.json",
+    "metabolites": [],
+    "id": "PK_PTS_KO",
+    "conditions": "glc_and_xyl_growth",
+    "removed_metabolites": [],
+    "parent": null,
+    "genes": [],
+    "reactions": [
+        {
+            "upper_bound": 0,
+            "name": "L-Malate exchange",
+            "subsystem": "Extracellular exchange",
+            "metabolites": {
+                "mal__L_e": -1.0
+            },
+            "id": "EX_mal__L_e",
+            "rstr_names": "L-Malate <-- ",
+            "lower_bound": -10,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 0,
+            "rstr": "mal__L_e <-- "
+        },
+        {
+            "upper_bound": 0,
+            "name": "O2 exchange",
+            "subsystem": "Extracellular exchange",
+            "metabolites": {
+                "o2_e": -1.0
+            },
+            "id": "EX_o2_e",
+            "rstr_names": "O2 O2 --> ",
+            "lower_bound": 0,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 0,
+            "rstr": "o2_e --> "
+        },
+        {
+            "upper_bound": 1000,
+            "name": "Dihydroneopterin monophosphate dephosphorylase",
+            "subsystem": "Cofactor and Prosthetic Group Biosynthesis",
+            "metabolites": {
+                "dhnpt_c": 1.0,
+                "pi_c": 1.0,
+                "dhpmp_c": -1.0,
+                "h2o_c": -1.0
+            },
+            "id": "DNMPPA",
+            "rstr_names": "Dihydroneopterin monophosphate + H2O H2O --> Dihydroneopterin + Phosphate",
+            "lower_bound": 0,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 0,
+            "rstr": "dhpmp_c + h2o_c --> dhnpt_c + pi_c"
+        },
+        {
+            "upper_bound": 1000,
+            "name": "Fumarate dependent DHORD",
+            "subsystem": "Purine and Pyrimidine Biosynthesis",
+            "metabolites": {
+                "fum_c": -1.0,
+                "succ_c": 1.0,
+                "orot_c": 1.0,
+                "dhor__S_c": -1.0
+            },
+            "id": "DHORDfum",
+            "rstr_names": "(S)-Dihydroorotate + Fumarate --> Orotate C5H3N2O4 + Succinate",
+            "lower_bound": 0,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 0,
+            "rstr": "dhor__S_c + fum_c --> orot_c + succ_c"
+        },
+        {
+            "upper_bound": 0,
+            "name": "D-glucose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "metabolites": {
+                "pyr_c": 1.0,
+                "glc__D_p": -1.0,
+                "pep_c": -1.0,
+                "g6p_c": 1.0
+            },
+            "id": "GLCptspp",
+            "rstr_names": "D-Glucose + Phosphoenolpyruvate --> D-Glucose 6-phosphate + Pyruvate",
+            "lower_bound": 0,
+            "gene_reaction_rule": "(b2417 and b1621 and b2415 and b2416) or (b2417 and b1101 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)",
+            "objective_coefficient": 0,
+            "rstr": "glc__D_p + pep_c --> g6p_c + pyr_c"
+        },
+        {
+            "upper_bound": 1000,
+            "name": "Malate oxidase",
+            "subsystem": "Citric Acid Cycle",
+            "metabolites": {
+                "mal__L_c": -1.0,
+                "h2o2_c": 1.0,
+                "oaa_c": 1.0,
+                "o2_c": -1.0
+            },
+            "id": "MOX",
+            "rstr_names": "L-Malate + O2 O2 <=> Hydrogen peroxide + Oxaloacetate",
+            "lower_bound": -1000,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 0,
+            "rstr": "mal__L_c + o2_c <=> h2o2_c + oaa_c"
+        },
+        {
+            "upper_bound": 0,
+            "name": "Pyruvate kinase",
+            "subsystem": "Glycolysis/Gluconeogenesis",
+            "metabolites": {
+                "adp_c": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0,
+                "atp_c": 1.0,
+                "h_c": -1.0
+            },
+            "id": "PYK",
+            "rstr_names": "ADP C10H12N5O10P2 + H+ + Phosphoenolpyruvate --> ATP C10H12N5O13P3 + Pyruvate",
+            "lower_bound": 0,
+            "gene_reaction_rule": "b1854 or b1676",
+            "objective_coefficient": 0,
+            "rstr": "adp_c + h_c + pep_c --> atp_c + pyr_c"
+        }
+    ],
+    "removed_reactions": []
+}

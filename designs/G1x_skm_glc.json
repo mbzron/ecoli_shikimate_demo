@@ -1,0 +1,720 @@
+{
+    "metabolites": [
+        {
+            "charge": null,
+            "id": "xylonolactone_c",
+            "compartment": "c",
+            "annotation": {},
+            "notes": {},
+            "formula": null,
+            "name": ""
+        },
+        {
+            "charge": null,
+            "id": "xylonate_c",
+            "compartment": "c",
+            "annotation": {},
+            "notes": {},
+            "formula": null,
+            "name": ""
+        },
+        {
+            "charge": null,
+            "id": "dehydrodeoxylonate_c",
+            "compartment": "c",
+            "annotation": {},
+            "notes": {},
+            "formula": null,
+            "name": ""
+        }
+    ],
+    "reactions": [
+        {
+            "metabolites": {
+                "skm_e": -1.0
+            },
+            "rstr": "skm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 1,
+            "name": "Shikimate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_skm_e",
+            "rstr_names": "Shikimate --> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "skm_p": -1.0,
+                "h_c": 1.0,
+                "skm_c": 1.0,
+                "h_p": -1.0
+            },
+            "rstr": "h_p + skm_p <=> h_c + skm_c",
+            "gene_reaction_rule": "b1981",
+            "lower_bound": -1000,
+            "name": "Shikimate transport in via proton symport (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "SKMt2pp",
+            "rstr_names": "H+ + Shikimate <=> H+ + Shikimate",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "g3p_c": 1.0,
+                "2ddg6p_c": -1.0
+            },
+            "rstr": "2ddg6p_c --> g3p_c + pyr_c",
+            "gene_reaction_rule": "b1850",
+            "lower_bound": 0.0,
+            "name": "2-dehydro-3-deoxy-phosphogluconate aldolase",
+            "subsystem": "Pentose Phosphate Pathway",
+            "id": "EDA",
+            "rstr_names": "2-Dehydro-3-deoxy-D-gluconate 6-phosphate --> Glyceraldehyde 3-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_c": 1.0,
+                "pyr_c": 1.0,
+                "h_c": -1.0,
+                "oaa_c": -1.0
+            },
+            "rstr": "h_c + oaa_c --> co2_c + pyr_c",
+            "gene_reaction_rule": "b1850",
+            "lower_bound": 0.0,
+            "name": "Oxaloacetate decarboxylase",
+            "subsystem": "Pyruvate Metabolism",
+            "id": "OAADC",
+            "rstr_names": "H+ + Oxaloacetate --> CO2 CO2 + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_c": -1.0,
+                "h_c": 1.0,
+                "pep_c": -1.0,
+                "pi_c": 1.0,
+                "h2o_c": -1.0,
+                "oaa_c": 1.0
+            },
+            "rstr": "co2_c + h2o_c + pep_c --> h_c + oaa_c + pi_c",
+            "gene_reaction_rule": "b3956",
+            "lower_bound": 0.0,
+            "name": "Phosphoenolpyruvate carboxylase",
+            "subsystem": "Anaplerotic Reactions",
+            "id": "PPC",
+            "rstr_names": "CO2 CO2 + H2O H2O + Phosphoenolpyruvate --> H+ + Oxaloacetate + Phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "adp_c": 1.0,
+                "co2_c": 1.0,
+                "pep_c": 1.0,
+                "oaa_c": -1.0,
+                "atp_c": -1.0
+            },
+            "rstr": "atp_c + oaa_c --> adp_c + co2_c + pep_c",
+            "gene_reaction_rule": "b3403",
+            "lower_bound": 0.0,
+            "name": "Phosphoenolpyruvate carboxykinase",
+            "subsystem": "Anaplerotic Reactions",
+            "id": "PPCK",
+            "rstr_names": "ATP C10H12N5O13P3 + Oxaloacetate --> ADP C10H12N5O10P2 + CO2 CO2 + Phosphoenolpyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": -1.0,
+                "h_c": 2.0,
+                "pep_c": 1.0,
+                "pi_c": 1.0,
+                "amp_c": 1.0,
+                "h2o_c": -1.0,
+                "atp_c": -1.0
+            },
+            "rstr": "atp_c + h2o_c + pyr_c --> amp_c + 2.0 h_c + pep_c + pi_c",
+            "gene_reaction_rule": "b1702",
+            "lower_bound": 0.0,
+            "name": "Phosphoenolpyruvate synthase",
+            "subsystem": "Glycolysis/Gluconeogenesis",
+            "id": "PPS",
+            "rstr_names": "ATP C10H12N5O13P3 + H2O H2O + Pyruvate --> AMP C10H12N5O7P + 2.0 H+ + Phosphoenolpyruvate + Phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_e": -1.0
+            },
+            "rstr": "co2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0,
+            "name": "CO2 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_co2_e",
+            "rstr_names": "CO2 CO2 --> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glc__D_e": -1.0
+            },
+            "rstr": "glc__D_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10.0,
+            "name": "D-Glucose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glc__D_e",
+            "rstr_names": "D-Glucose <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mal__L_e": -1.0
+            },
+            "rstr": "mal__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0,
+            "name": "L-Malate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mal__L_e",
+            "rstr_names": "L-Malate --> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "o2_e": -1.0
+            },
+            "rstr": "o2_e <-- ",
+            "gene_reaction_rule": "",
+            "lower_bound": -1000,
+            "name": "O2 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_o2_e",
+            "rstr_names": "O2 O2 <-- ",
+            "upper_bound": 0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "phe__L_e": -1.0
+            },
+            "rstr": "phe__L_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "L-Phenylalanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_phe__L_e",
+            "rstr_names": "L-Phenylalanine <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xyl__D_e": -1.0
+            },
+            "rstr": "xyl__D_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "D-Xylose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xyl__D_e",
+            "rstr_names": "D-Xylose <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tyr__L_e": -1.0
+            },
+            "rstr": "tyr__L_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "L-Tyrosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tyr__L_e",
+            "rstr_names": "L-Tyrosine <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgam6p_c": 1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "acgam_p": -1.0
+            },
+            "rstr": "acgam_p + pep_c --> acgam6p_c + pyr_c",
+            "gene_reaction_rule": "(b2417 and b1101 and b2415 and b2416) or (b0679 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-glucosamine transport via PEP:Pyr PTS  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACGAptspp",
+            "rstr_names": "N-Acetyl-D-glucosamine + Phosphoenolpyruvate --> N-Acetyl-D-glucosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "acmana_p": -1.0,
+                "pep_c": -1.0,
+                "acmanap_c": 1.0
+            },
+            "rstr": "acmana_p + pep_c --> acmanap_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "N-acetyl-D-mannosamine transport via PTS  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACMANAptspp",
+            "rstr_names": "N-Acetyl-D-mannosamine + Phosphoenolpyruvate --> N-Acetyl-D-mannosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "acmum_p": -1.0,
+                "acmum6p_c": 1.0
+            },
+            "rstr": "acmum_p + pep_c --> acmum6p_c + pyr_c",
+            "gene_reaction_rule": "b2417 and b2429 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "N-acetylmuramate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACMUMptspp",
+            "rstr_names": "N-Acetylmuramate + Phosphoenolpyruvate --> N-acetylmuramate 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "ascb6p_c": 1.0,
+                "ascb__L_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "ascb__L_p + pep_c --> ascb6p_c + pyr_c",
+            "gene_reaction_rule": "b2415 and b2416 and b4195 and b4194 and b4193",
+            "lower_bound": 0.0,
+            "name": "L-ascorbate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ASCBptspp",
+            "rstr_names": "L-Ascorbate + Phosphoenolpyruvate --> L-ascorbate-6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pphn_c": 1.0,
+                "chor_c": -1.0
+            },
+            "rstr": "chor_c --> pphn_c",
+            "gene_reaction_rule": "b2599 or b2600",
+            "lower_bound": 0.0,
+            "name": "Chorismate mutase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "CHORM",
+            "rstr_names": "Chorismate --> Prephenate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "chtbs_p": -1.0,
+                "chtbs6p_c": 1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "chtbs_p + pep_c --> chtbs6p_c + pyr_c",
+            "gene_reaction_rule": "b2416",
+            "lower_bound": 0.0,
+            "name": "Chitobiose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "CHTBSptspp",
+            "rstr_names": "N,N'-diacetylchitobiose + Phosphoenolpyruvate --> Diacetylchitobiose-6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pep_c": -1.0,
+                "pyr_c": 1.0,
+                "arbt_p": -1.0,
+                "arbt6p_c": 1.0
+            },
+            "rstr": "arbt_p + pep_c --> arbt6p_c + pyr_c",
+            "gene_reaction_rule": "(b3722 and b2415 and b2416) or (b2715 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "Arbutin transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ARBTptspp",
+            "rstr_names": "Arbutin C12H16O7 + Phosphoenolpyruvate --> Arbutin 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "dha_c": -1.0,
+                "dhap_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "dha_c + pep_c --> dhap_c + pyr_c",
+            "gene_reaction_rule": "b1200 and b1199 and b1198 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Dihydroxyacetone phosphotransferase",
+            "subsystem": "Alternate Carbon Metabolism",
+            "id": "DHAPT",
+            "rstr_names": "Dihydroxyacetone + Phosphoenolpyruvate --> Dihydroxyacetone phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "f6p_c": 1.0,
+                "fru_p": -1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "fru_p + pep_c --> f6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "FRUpts2pp",
+            "rstr_names": "D-Fructose + Phosphoenolpyruvate --> D-Fructose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fru_p": -1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "f1p_c": 1.0
+            },
+            "rstr": "fru_p + pep_c --> f1p_c + pyr_c",
+            "gene_reaction_rule": "b2167 and b2169 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-fructose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "FRUptspp",
+            "rstr_names": "D-Fructose + Phosphoenolpyruvate --> D-Fructose 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "galt_p": -1.0,
+                "galt1p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "galt_p + pep_c --> galt1p_c + pyr_c",
+            "gene_reaction_rule": "b2094 and b2093 and b2092 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Galactitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GALTptspp",
+            "rstr_names": "Galactitol + Phosphoenolpyruvate --> Galactitol 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glc__D_p": -1.0,
+                "pyr_c": 1.0,
+                "g6p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "glc__D_p + pep_c --> g6p_c + pyr_c",
+            "gene_reaction_rule": "(b2417 and b1621 and b2415 and b2416) or (b2417 and b1101 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "D-glucose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GLCptspp",
+            "rstr_names": "D-Glucose + Phosphoenolpyruvate --> D-Glucose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gam6p_c": 1.0,
+                "pyr_c": 1.0,
+                "gam_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "gam_p + pep_c --> gam6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-glucosamine transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GAMptspp",
+            "rstr_names": "D-Glucosamine + Phosphoenolpyruvate --> D-Glucosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "malt6p_c": 1.0,
+                "pyr_c": 1.0,
+                "malt_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "malt_p + pep_c --> malt6p_c + pyr_c",
+            "gene_reaction_rule": "b2417 and b1621 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Maltose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MALTptspp",
+            "rstr_names": "Maltose C12H22O11 + Phosphoenolpyruvate --> Maltose 6'-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "man6pglyc_c": 1.0,
+                "manglyc_p": -1.0
+            },
+            "rstr": "manglyc_p + pep_c --> man6pglyc_c + pyr_c",
+            "gene_reaction_rule": "b0731 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "2-O-alpha-mannosyl-D-glycerate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MANGLYCptspp",
+            "rstr_names": "2(alpha-D-Mannosyl)-D-glycerate + Phosphoenolpyruvate --> 2(alpha-D-Mannosyl-6-phosphate)-D-glycerate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "man6p_c": 1.0,
+                "man_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "man_p + pep_c --> man6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-mannose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MANptspp",
+            "rstr_names": "D-Mannose + Phosphoenolpyruvate --> D-Mannose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "mnl_p": -1.0,
+                "mnl1p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "mnl_p + pep_c --> mnl1p_c + pyr_c",
+            "gene_reaction_rule": "b3599 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Mannitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MNLptspp",
+            "rstr_names": "D-Mannitol + Phosphoenolpyruvate --> D-Mannitol 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_c": 1.0,
+                "nad_c": -1.0,
+                "pphn_c": -1.0,
+                "nadh_c": 1.0,
+                "34hpp_c": 1.0
+            },
+            "rstr": "nad_c + pphn_c --> 34hpp_c + co2_c + nadh_c",
+            "gene_reaction_rule": "b2600",
+            "lower_bound": 0.0,
+            "name": "Prephenate dehydrogenase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "PPND",
+            "rstr_names": "Nicotinamide adenine dinucleotide + Prephenate --> 3-(4-Hydroxyphenyl)pyruvate + CO2 CO2 + Nicotinamide adenine dinucleotide - reduced",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2o_c": 1.0,
+                "co2_c": 1.0,
+                "phpyr_c": 1.0,
+                "h_c": -1.0,
+                "pphn_c": -1.0
+            },
+            "rstr": "h_c + pphn_c --> co2_c + h2o_c + phpyr_c",
+            "gene_reaction_rule": "b2599",
+            "lower_bound": 0.0,
+            "name": "Prephenate dehydratase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "PPNDH",
+            "rstr_names": "H+ + Prephenate --> CO2 CO2 + H2O H2O + Phenylpyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "atp_c": 1.0,
+                "pyr_c": 1.0,
+                "h_c": -1.0,
+                "pep_c": -1.0,
+                "adp_c": -1.0
+            },
+            "rstr": "adp_c + h_c + pep_c --> atp_c + pyr_c",
+            "gene_reaction_rule": "b1854 or b1676",
+            "lower_bound": 0.0,
+            "name": "Pyruvate kinase",
+            "subsystem": "Glycolysis/Gluconeogenesis",
+            "id": "PYK",
+            "rstr_names": "ADP C10H12N5O10P2 + H+ + Phosphoenolpyruvate --> ATP C10H12N5O13P3 + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "sbt__D_p": -1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "sbt6p_c": 1.0
+            },
+            "rstr": "pep_c + sbt__D_p --> pyr_c + sbt6p_c",
+            "gene_reaction_rule": "b2415 and b2416 and b2702 and b2704 and b2703",
+            "lower_bound": 0.0,
+            "name": "D-sorbitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "SBTptspp",
+            "rstr_names": "Phosphoenolpyruvate + D-Sorbitol --> Pyruvate + D-Sorbitol 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pep_c": -1.0,
+                "pyr_c": 1.0,
+                "sucr_p": -1.0,
+                "suc6p_c": 1.0
+            },
+            "rstr": "pep_c + sucr_p --> pyr_c + suc6p_c",
+            "gene_reaction_rule": "b2417 and b2429 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Sucrose transport via PEP:Pyr  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "SUCptspp",
+            "rstr_names": "Phosphoenolpyruvate + Sucrose C12H22O11 --> Pyruvate + Sucrose 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "tre_p": -1.0,
+                "pep_c": -1.0,
+                "tre6p_c": 1.0
+            },
+            "rstr": "pep_c + tre_p --> pyr_c + tre6p_c",
+            "gene_reaction_rule": "b2417 and b2415 and b2416 and b4240",
+            "lower_bound": 0.0,
+            "name": "Trehalose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "TREptspp",
+            "rstr_names": "Phosphoenolpyruvate + Trehalose --> Pyruvate + Alpha,alpha'-Trehalose 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xylonolactone_c": 1,
+                "h_c": 1,
+                "xyl__D_c": -1,
+                "nadh_c": 1,
+                "nad_c": -1
+            },
+            "rstr": "nad_c + xyl__D_c --> h_c + nadh_c + xylonolactone_c",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "",
+            "subsystem": "",
+            "id": "xdh",
+            "rstr_names": "Nicotinamide adenine dinucleotide + D-Xylose --> H+ + Nicotinamide adenine dinucleotide - reduced + ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2o_c": -1,
+                "xylonolactone_c": -1,
+                "h_c": 1,
+                "xylonate_c": 1
+            },
+            "rstr": "h2o_c + xylonolactone_c --> h_c + xylonate_c",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "",
+            "subsystem": "",
+            "id": "xylC",
+            "rstr_names": "H2O H2O +  --> H+ + ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2o_c": 1,
+                "xylonate_c": -1,
+                "dehydrodeoxylonate_c": 1
+            },
+            "rstr": "xylonate_c --> dehydrodeoxylonate_c + h2o_c",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "",
+            "subsystem": "",
+            "id": "yjhG",
+            "rstr_names": " -->  + H2O H2O",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1,
+                "gcald_c": 1,
+                "dehydrodeoxylonate_c": -1
+            },
+            "rstr": "dehydrodeoxylonate_c --> gcald_c + pyr_c",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "",
+            "subsystem": "",
+            "id": "yjhH",
+            "rstr_names": " --> Glycolaldehyde + Pyruvate",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        }
+    ],
+    "removed_metabolites": [],
+    "description": "",
+    "id": "G1x_skm_glc",
+    "name": "G1 with Dahms pathway and shikimate efflux lower bound (glc)",
+    "base_model": "iJO1366.json",
+    "genes": [],
+    "conditions": "glc_M9_aero",
+    "parent": null,
+    "removed_reactions": []
+}

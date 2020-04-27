@@ -1,0 +1,1 @@
+{"description": "test if shikimate boundary is active in efflux direction (minimum 0.01 efflux)", "conditions": ["glc_M9_aero", "xyl_M9_aero", "glc+xyl_M9_aero"], "designs": ["G1x_skm_xyl", "G1x_skm_glc", "G1x_skm_glcxyl"], "required_reactions": [], "models": ["iJO1366.json"], "reaction_fluxes": {"EX_skm_e": [0.01, 1000]}}

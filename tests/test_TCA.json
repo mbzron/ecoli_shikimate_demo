@@ -1,0 +1,1 @@
+{"TCA":{"description": "reactions of the tca cycle", "conditions": ["glc+xyl_M9_aero", "glc_M9_aero", "xyl_M9_aero"], "designs": ["G1x"], "required_reactions": ["ACONTa", "ACONTb", "AKGDH", "CITL", "CS", "FRD2", "FRD3", "FUM", "ICDHyr", "MDH", "MDH2", "MDH3", "MOX", "SUCOAS"], "models": [], "reaction_fluxes": {}}}

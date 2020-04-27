@@ -1,0 +1,4634 @@
+{
+    "metabolites": [],
+    "reactions": [
+        {
+            "metabolites": {
+                "cm_e": -1.0
+            },
+            "rstr": "cm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Chloramphenicol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cm_e",
+            "rstr_names": "Chloramphenicol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cmp_e": -1.0
+            },
+            "rstr": "cmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "CMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cmp_e",
+            "rstr_names": "CMP C9H12N3O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_e": -1.0
+            },
+            "rstr": "co2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0,
+            "name": "CO2 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_co2_e",
+            "rstr_names": "CO2 CO2 --> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "colipa_e": -1.0
+            },
+            "rstr": "colipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Core oligosaccharide lipid A exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_colipa_e",
+            "rstr_names": "Core oligosaccharide lipid A --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glc__D_e": -1.0
+            },
+            "rstr": "glc__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0,
+            "name": "D-Glucose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glc__D_e",
+            "rstr_names": "D-Glucose --> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glcn_e": -1.0
+            },
+            "rstr": "glcn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Gluconate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glcn_e",
+            "rstr_names": "D-Gluconate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glcr_e": -1.0
+            },
+            "rstr": "glcr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucarate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glcr_e",
+            "rstr_names": "D-Glucarate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "colipap_e": -1.0
+            },
+            "rstr": "colipap_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Core oligosaccharide lipid A diphosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_colipap_e",
+            "rstr_names": "Core oligosaccharide lipid A diphosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glcur_e": -1.0
+            },
+            "rstr": "glcur_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucuronate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glcur_e",
+            "rstr_names": "D-Glucuronate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glcur1p_e": -1.0
+            },
+            "rstr": "glcur1p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucuronate 1-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glcur1p_e",
+            "rstr_names": "D-Glucuronate 1-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "12ppd__R_e": -1.0
+            },
+            "rstr": "12ppd__R_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(R)-Propane-1,2-diol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_12ppd__R_e",
+            "rstr_names": "(R)-Propane-1,2-diol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gln__L_e": -1.0
+            },
+            "rstr": "gln__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Glutamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gln__L_e",
+            "rstr_names": "L-Glutamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cpgn_e": -1.0
+            },
+            "rstr": "cpgn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Coprogen exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cpgn_e",
+            "rstr_names": "Coprogen --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glu__L_e": -1.0
+            },
+            "rstr": "glu__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Glutamate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glu__L_e",
+            "rstr_names": "L-Glutamate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gly_e": -1.0
+            },
+            "rstr": "gly_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gly_e",
+            "rstr_names": "Glycine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyald_e": -1.0
+            },
+            "rstr": "glyald_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glyceraldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyald_e",
+            "rstr_names": "D-Glyceraldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyb_e": -1.0
+            },
+            "rstr": "glyb_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycine betaine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyb_e",
+            "rstr_names": "Glycine betaine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyc_e": -1.0
+            },
+            "rstr": "glyc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycerol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyc_e",
+            "rstr_names": "Glycerol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "12ppd__S_e": -1.0
+            },
+            "rstr": "12ppd__S_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(S)-Propane-1,2-diol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_12ppd__S_e",
+            "rstr_names": "(S)-Propane-1,2-diol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "14glucan_e": -1.0
+            },
+            "rstr": "14glucan_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "1,4-alpha-D-glucan exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_14glucan_e",
+            "rstr_names": "1,4-alpha-D-glucan --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cpgn_un_e": -1.0
+            },
+            "rstr": "cpgn_un_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Coprogen unloaded (no Fe(III)) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cpgn_un_e",
+            "rstr_names": "Coprogen unloaded (no Fe(III)) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "15dap_e": -1.0
+            },
+            "rstr": "15dap_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "1,5-Diaminopentane exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_15dap_e",
+            "rstr_names": "1,5-Diaminopentane --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyc__R_e": -1.0
+            },
+            "rstr": "glyc__R_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(R)-Glycerate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyc__R_e",
+            "rstr_names": "(R)-Glycerate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyc2p_e": -1.0
+            },
+            "rstr": "glyc2p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycerol 2-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyc2p_e",
+            "rstr_names": "Glycerol 2-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "23camp_e": -1.0
+            },
+            "rstr": "23camp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2',3'-Cyclic AMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_23camp_e",
+            "rstr_names": "2',3'-Cyclic AMP --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "23ccmp_e": -1.0
+            },
+            "rstr": "23ccmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2',3'-Cyclic CMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_23ccmp_e",
+            "rstr_names": "2',3'-Cyclic CMP --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "23cgmp_e": -1.0
+            },
+            "rstr": "23cgmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2',3'-Cyclic GMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_23cgmp_e",
+            "rstr_names": "2',3'-Cyclic GMP --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "23cump_e": -1.0
+            },
+            "rstr": "23cump_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2',3'-Cyclic UMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_23cump_e",
+            "rstr_names": "2',3'-Cyclic UMP --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "23dappa_e": -1.0
+            },
+            "rstr": "23dappa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2,3-diaminopropionate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_23dappa_e",
+            "rstr_names": "2,3-diaminopropionate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "26dap__M_e": -1.0
+            },
+            "rstr": "26dap__M_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Meso-2,6-Diaminoheptanedioate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_26dap__M_e",
+            "rstr_names": "Meso-2,6-Diaminoheptanedioate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyc3p_e": -1.0
+            },
+            "rstr": "glyc3p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycerol 3-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyc3p_e",
+            "rstr_names": "Glycerol 3-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glyclt_e": -1.0
+            },
+            "rstr": "glyclt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycolate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_glyclt_e",
+            "rstr_names": "Glycolate C2H3O3 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gmp_e": -1.0
+            },
+            "rstr": "gmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "GMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gmp_e",
+            "rstr_names": "GMP C10H12N5O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gsn_e": -1.0
+            },
+            "rstr": "gsn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Guanosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gsn_e",
+            "rstr_names": "Guanosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gthox_e": -1.0
+            },
+            "rstr": "gthox_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Oxidized glutathione exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gthox_e",
+            "rstr_names": "Oxidized glutathione --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gthrd_e": -1.0
+            },
+            "rstr": "gthrd_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Reduced glutathione exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gthrd_e",
+            "rstr_names": "Reduced glutathione --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gtp_e": -1.0
+            },
+            "rstr": "gtp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "GTP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gtp_e",
+            "rstr_names": "GTP C10H12N5O14P3 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gua_e": -1.0
+            },
+            "rstr": "gua_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Guanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gua_e",
+            "rstr_names": "Guanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2_e": -1.0
+            },
+            "rstr": "h2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "H2 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_h2_e",
+            "rstr_names": "Hydrogen --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2o2_e": -1.0
+            },
+            "rstr": "h2o2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hydrogen peroxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_h2o2_e",
+            "rstr_names": "Hydrogen peroxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2s_e": -1.0
+            },
+            "rstr": "h2s_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hydrogen sulfide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_h2s_e",
+            "rstr_names": "Hydrogen sulfide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hacolipa_e": -1.0
+            },
+            "rstr": "hacolipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hepta-acylated core oligosaccharide lipid A (E. coli) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hacolipa_e",
+            "rstr_names": "Hepta-acylated core oligosaccharide lipid A (E. coli) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "halipa_e": -1.0
+            },
+            "rstr": "halipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hepta-acylated KDO(2)-lipid (A) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_halipa_e",
+            "rstr_names": "Hepta-acylated KDO(2)-lipid (A) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hdca_e": -1.0
+            },
+            "rstr": "hdca_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hexadecanoate (n-C16:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hdca_e",
+            "rstr_names": "Hexadecanoate (n-C16:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hdcea_e": -1.0
+            },
+            "rstr": "hdcea_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hexadecenoate (n-C16:1) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hdcea_e",
+            "rstr_names": "Hexadecenoate (n-C16:1) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hg2_e": -1.0
+            },
+            "rstr": "hg2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hg2+ exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hg2_e",
+            "rstr_names": "Mercury  charged 2  Hg --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "his__L_e": -1.0
+            },
+            "rstr": "his__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Histidine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_his__L_e",
+            "rstr_names": "L-Histidine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "2ddglcn_e": -1.0
+            },
+            "rstr": "2ddglcn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2-Dehydro-3-deoxy-D-gluconate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_2ddglcn_e",
+            "rstr_names": "2-Dehydro-3-deoxy-D-gluconate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "34dhpac_e": -1.0
+            },
+            "rstr": "34dhpac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3,4-Dihydroxyphenylacetaldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_34dhpac_e",
+            "rstr_names": "3,4-Dihydroxyphenylacetaldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3amp_e": -1.0
+            },
+            "rstr": "3amp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3'-AMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3amp_e",
+            "rstr_names": "3  AMP C10H12N5O7P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3cmp_e": -1.0
+            },
+            "rstr": "3cmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3'-cmp exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3cmp_e",
+            "rstr_names": "3  CMP C9H12N3O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3gmp_e": -1.0
+            },
+            "rstr": "3gmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3'-GMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3gmp_e",
+            "rstr_names": "Guanosine 3  phosphate C10H12N5O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3hcinnm_e": -1.0
+            },
+            "rstr": "3hcinnm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3-hydroxycinnamic acid exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3hcinnm_e",
+            "rstr_names": "3-hydroxycinnamic acid --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3hpp_e": -1.0
+            },
+            "rstr": "3hpp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3-Hydroxypropanoate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3hpp_e",
+            "rstr_names": "3-Hydroxypropanoate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3hpppn_e": -1.0
+            },
+            "rstr": "3hpppn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3-(3-hydroxy-phenyl)propionate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3hpppn_e",
+            "rstr_names": "3-(3-hydroxy-phenyl)propionate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hom__L_e": -1.0
+            },
+            "rstr": "hom__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Homoserine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hom__L_e",
+            "rstr_names": "L-Homoserine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hxa_e": -1.0
+            },
+            "rstr": "hxa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hexanoate (n-C6:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hxa_e",
+            "rstr_names": "Hexanoate (n-C6:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "hxan_e": -1.0
+            },
+            "rstr": "hxan_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hypoxanthine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_hxan_e",
+            "rstr_names": "Hypoxanthine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "idon__L_e": -1.0
+            },
+            "rstr": "idon__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Idonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_idon__L_e",
+            "rstr_names": "L-Idonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "3ump_e": -1.0
+            },
+            "rstr": "3ump_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "3'-UMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_3ump_e",
+            "rstr_names": "3  UMP C9H11N2O9P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "4abut_e": -1.0
+            },
+            "rstr": "4abut_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "4-Aminobutanoate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_4abut_e",
+            "rstr_names": "4-Aminobutanoate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "4hoxpacd_e": -1.0
+            },
+            "rstr": "4hoxpacd_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "4-Hydroxyphenylacetaldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_4hoxpacd_e",
+            "rstr_names": "4-Hydroxyphenylacetaldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "5dglcn_e": -1.0
+            },
+            "rstr": "5dglcn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "5-Dehydro-D-gluconate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_5dglcn_e",
+            "rstr_names": "5-Dehydro-D-gluconate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "5mtr_e": -1.0
+            },
+            "rstr": "5mtr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "5-Methylthio-D-ribose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_5mtr_e",
+            "rstr_names": "5-Methylthio-D-ribose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "LalaDglu_e": -1.0
+            },
+            "rstr": "LalaDglu_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-alanine-D-glutamate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_LalaDglu_e",
+            "rstr_names": "L-alanine-D-glutamate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ile__L_e": -1.0
+            },
+            "rstr": "ile__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Isoleucine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ile__L_e",
+            "rstr_names": "L-Isoleucine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "imp_e": -1.0
+            },
+            "rstr": "imp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "IMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_imp_e",
+            "rstr_names": "IMP C10H11N4O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "indole_e": -1.0
+            },
+            "rstr": "indole_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Indole exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_indole_e",
+            "rstr_names": "Indole --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "inost_e": -1.0
+            },
+            "rstr": "inost_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Myo-Inositol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_inost_e",
+            "rstr_names": "Myo-Inositol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ins_e": -1.0
+            },
+            "rstr": "ins_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Inosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ins_e",
+            "rstr_names": "Inosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "isetac_e": -1.0
+            },
+            "rstr": "isetac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Isethionic acid exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_isetac_e",
+            "rstr_names": "Isethionic acid --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "LalaDgluMdap_e": -1.0
+            },
+            "rstr": "LalaDgluMdap_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_LalaDgluMdap_e",
+            "rstr_names": "L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "LalaDgluMdapDala_e": -1.0
+            },
+            "rstr": "LalaDgluMdapDala_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_LalaDgluMdapDala_e",
+            "rstr_names": "L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "LalaLglu_e": -1.0
+            },
+            "rstr": "LalaLglu_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-alanine-L-glutamate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_LalaLglu_e",
+            "rstr_names": "L-alanine-L-glutamate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "kdo2lipid4_e": -1.0
+            },
+            "rstr": "kdo2lipid4_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "KDO(2)-lipid IV(A) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_kdo2lipid4_e",
+            "rstr_names": "KDO(2)-lipid IV(A) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ac_e": -1.0
+            },
+            "rstr": "ac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Acetate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ac_e",
+            "rstr_names": "Acetate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "crn_e": -1.0
+            },
+            "rstr": "crn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Carnitine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_crn_e",
+            "rstr_names": "L-Carnitine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acac_e": -1.0
+            },
+            "rstr": "acac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Acetoacetate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acac_e",
+            "rstr_names": "Acetoacetate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acald_e": -1.0
+            },
+            "rstr": "acald_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Acetaldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acald_e",
+            "rstr_names": "Acetaldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lac__D_e": -1.0
+            },
+            "rstr": "lac__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-lactate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lac__D_e",
+            "rstr_names": "D-Lactate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lac__L_e": -1.0
+            },
+            "rstr": "lac__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Lactate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lac__L_e",
+            "rstr_names": "L-Lactate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "crn__D_e": -1.0
+            },
+            "rstr": "crn__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-carnitine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_crn__D_e",
+            "rstr_names": "D-Carnitine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lcts_e": -1.0
+            },
+            "rstr": "lcts_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Lactose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lcts_e",
+            "rstr_names": "Lactose C12H22O11 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgal_e": -1.0
+            },
+            "rstr": "acgal_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-galactosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acgal_e",
+            "rstr_names": "N-Acetyl-D-galactosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgal1p_e": -1.0
+            },
+            "rstr": "acgal1p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-galactosamine 1-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acgal1p_e",
+            "rstr_names": "N-Acetyl-D-galactosamine 1-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgam_e": -1.0
+            },
+            "rstr": "acgam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-glucosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acgam_e",
+            "rstr_names": "N-Acetyl-D-glucosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "leu__L_e": -1.0
+            },
+            "rstr": "leu__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Leucine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_leu__L_e",
+            "rstr_names": "L-Leucine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "csn_e": -1.0
+            },
+            "rstr": "csn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cytosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_csn_e",
+            "rstr_names": "Cytosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgam1p_e": -1.0
+            },
+            "rstr": "acgam1p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-glucosamine 1-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acgam1p_e",
+            "rstr_names": "N-Acetyl-D-glucosamine 1-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acmana_e": -1.0
+            },
+            "rstr": "acmana_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-mannosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acmana_e",
+            "rstr_names": "N-Acetyl-D-mannosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acmum_e": -1.0
+            },
+            "rstr": "acmum_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetylmuramate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acmum_e",
+            "rstr_names": "N-Acetylmuramate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lipa_e": -1.0
+            },
+            "rstr": "lipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "KDO(2)-lipid (A) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lipa_e",
+            "rstr_names": "KDO(2)-lipid (A) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cu_e": -1.0
+            },
+            "rstr": "cu_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cu+ exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cu_e",
+            "rstr_names": "Cu+ --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lipa_cold_e": -1.0
+            },
+            "rstr": "lipa_cold_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cold adapted KDO(2)-lipid (A) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lipa_cold_e",
+            "rstr_names": "Cold adapted KDO(2)-lipid (A) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acnam_e": -1.0
+            },
+            "rstr": "acnam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetylneuraminate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acnam_e",
+            "rstr_names": "N-Acetylneuraminate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acolipa_e": -1.0
+            },
+            "rstr": "acolipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acolipa_e",
+            "rstr_names": "4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acser_e": -1.0
+            },
+            "rstr": "acser_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "O-Acetyl-L-serine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_acser_e",
+            "rstr_names": "O-Acetyl-L-serine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ade_e": -1.0
+            },
+            "rstr": "ade_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Adenine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ade_e",
+            "rstr_names": "Adenine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "adn_e": -1.0
+            },
+            "rstr": "adn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Adenosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_adn_e",
+            "rstr_names": "Adenosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "adocbl_e": -1.0
+            },
+            "rstr": "adocbl_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Adenosylcobalamin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_adocbl_e",
+            "rstr_names": "Adenosylcobalamin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ag_e": -1.0
+            },
+            "rstr": "ag_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Silver exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ag_e",
+            "rstr_names": "Silver --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lipoate_e": -1.0
+            },
+            "rstr": "lipoate_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Lipoate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lipoate_e",
+            "rstr_names": "Lipoate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lys__L_e": -1.0
+            },
+            "rstr": "lys__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Lysine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lys__L_e",
+            "rstr_names": "L-Lysine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "lyx__L_e": -1.0
+            },
+            "rstr": "lyx__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Lyxose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_lyx__L_e",
+            "rstr_names": "L-Lyxose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mal__D_e": -1.0
+            },
+            "rstr": "mal__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Malate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mal__D_e",
+            "rstr_names": "D-Malate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "agm_e": -1.0
+            },
+            "rstr": "agm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Agmatine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_agm_e",
+            "rstr_names": "Agmatine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "akg_e": -1.0
+            },
+            "rstr": "akg_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2-Oxoglutarate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_akg_e",
+            "rstr_names": "2-Oxoglutarate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cyan_e": -1.0
+            },
+            "rstr": "cyan_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Hydrogen cyanide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cyan_e",
+            "rstr_names": "Hydrogen cyanide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ala_B_e": -1.0
+            },
+            "rstr": "ala_B_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Beta-Alanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ala_B_e",
+            "rstr_names": "Beta-Alanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ala__D_e": -1.0
+            },
+            "rstr": "ala__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Alanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ala__D_e",
+            "rstr_names": "D-Alanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ala__L_e": -1.0
+            },
+            "rstr": "ala__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Alanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ala__L_e",
+            "rstr_names": "L-Alanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "alaala_e": -1.0
+            },
+            "rstr": "alaala_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Alanyl-D-alanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_alaala_e",
+            "rstr_names": "D-Alanyl-D-alanine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "all__D_e": -1.0
+            },
+            "rstr": "all__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Allose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_all__D_e",
+            "rstr_names": "D-Allose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "alltn_e": -1.0
+            },
+            "rstr": "alltn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Allantoin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_alltn_e",
+            "rstr_names": "Allantoin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "amp_e": -1.0
+            },
+            "rstr": "amp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "AMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_amp_e",
+            "rstr_names": "AMP C10H12N5O7P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "anhgm_e": -1.0
+            },
+            "rstr": "anhgm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_anhgm_e",
+            "rstr_names": "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "arab__L_e": -1.0
+            },
+            "rstr": "arab__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Arabinose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_arab__L_e",
+            "rstr_names": "L-Arabinose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mal__L_e": -1.0
+            },
+            "rstr": "mal__L_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -15,
+            "name": "L-Malate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mal__L_e",
+            "rstr_names": "L-Malate <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "malt_e": -1.0
+            },
+            "rstr": "malt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Maltose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_malt_e",
+            "rstr_names": "Maltose C12H22O11 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "malthx_e": -1.0
+            },
+            "rstr": "malthx_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Maltohexaose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_malthx_e",
+            "rstr_names": "Maltohexaose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "maltpt_e": -1.0
+            },
+            "rstr": "maltpt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Maltopentaose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_maltpt_e",
+            "rstr_names": "Maltopentaose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "malttr_e": -1.0
+            },
+            "rstr": "malttr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Maltotriose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_malttr_e",
+            "rstr_names": "Maltotriose C18H32O16 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "maltttr_e": -1.0
+            },
+            "rstr": "maltttr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Maltotetraose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_maltttr_e",
+            "rstr_names": "Maltotetraose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "man_e": -1.0
+            },
+            "rstr": "man_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Mannose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_man_e",
+            "rstr_names": "D-Mannose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cynt_e": -1.0
+            },
+            "rstr": "cynt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cyanate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cynt_e",
+            "rstr_names": "Cyanate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "man6p_e": -1.0
+            },
+            "rstr": "man6p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Mannose 6-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_man6p_e",
+            "rstr_names": "D-Mannose 6-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "manglyc_e": -1.0
+            },
+            "rstr": "manglyc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "2(alpha-D-Mannosyl)-D-glycerate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_manglyc_e",
+            "rstr_names": "2(alpha-D-Mannosyl)-D-glycerate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "melib_e": -1.0
+            },
+            "rstr": "melib_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Melibiose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_melib_e",
+            "rstr_names": "Melibiose C12H22O11 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cys__D_e": -1.0
+            },
+            "rstr": "cys__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Cysteine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cys__D_e",
+            "rstr_names": "D-Cysteine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "meoh_e": -1.0
+            },
+            "rstr": "meoh_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Methanol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_meoh_e",
+            "rstr_names": "Methanol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "met__D_e": -1.0
+            },
+            "rstr": "met__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Methionine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_met__D_e",
+            "rstr_names": "D-Methionine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "arbt_e": -1.0
+            },
+            "rstr": "arbt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Arbutin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_arbt_e",
+            "rstr_names": "Arbutin C12H16O7 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "arbtn_e": -1.0
+            },
+            "rstr": "arbtn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Aerobactin minus Fe3 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_arbtn_e",
+            "rstr_names": "Aerobactin minus Fe3 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "arbtn_fe3_e": -1.0
+            },
+            "rstr": "arbtn_fe3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Aerobactin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_arbtn_fe3_e",
+            "rstr_names": "Aerobactin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "met__L_e": -1.0
+            },
+            "rstr": "met__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Methionine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_met__L_e",
+            "rstr_names": "L-Methionine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cys__L_e": -1.0
+            },
+            "rstr": "cys__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Cysteine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cys__L_e",
+            "rstr_names": "L-Cysteine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "metsox_R__L_e": -1.0
+            },
+            "rstr": "metsox_R__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-methionine-R-sulfoxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_metsox_R__L_e",
+            "rstr_names": "L-methionine-R-sulfoxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "metsox_S__L_e": -1.0
+            },
+            "rstr": "metsox_S__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Methionine S-oxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_metsox_S__L_e",
+            "rstr_names": "L-Methionine Sulfoxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mincyc_e": -1.0
+            },
+            "rstr": "mincyc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Minocycline exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mincyc_e",
+            "rstr_names": "Minocycline --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "minohp_e": -1.0
+            },
+            "rstr": "minohp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Myo-Inositol hexakisphosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_minohp_e",
+            "rstr_names": "Myo-Inositol hexakisphosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mmet_e": -1.0
+            },
+            "rstr": "mmet_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "S-Methyl-L-methionine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mmet_e",
+            "rstr_names": "S-Methyl-L-methionine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "arg__L_e": -1.0
+            },
+            "rstr": "arg__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Arginine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_arg__L_e",
+            "rstr_names": "L-Arginine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ascb__L_e": -1.0
+            },
+            "rstr": "ascb__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Ascorbate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ascb__L_e",
+            "rstr_names": "L-Ascorbate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "asn__L_e": -1.0
+            },
+            "rstr": "asn__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Asparagine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_asn__L_e",
+            "rstr_names": "L-Asparagine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "aso3_e": -1.0
+            },
+            "rstr": "aso3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Arsenite exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_aso3_e",
+            "rstr_names": "Arsenite --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "asp__L_e": -1.0
+            },
+            "rstr": "asp__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Aspartate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_asp__L_e",
+            "rstr_names": "L-Aspartate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "btn_e": -1.0
+            },
+            "rstr": "btn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Biotin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_btn_e",
+            "rstr_names": "Biotin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "but_e": -1.0
+            },
+            "rstr": "but_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Butyrate (n-C4:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_but_e",
+            "rstr_names": "Butyrate (n-C4:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mnl_e": -1.0
+            },
+            "rstr": "mnl_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Mannitol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mnl_e",
+            "rstr_names": "D-Mannitol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "mso3_e": -1.0
+            },
+            "rstr": "mso3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Methanesulfonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_mso3_e",
+            "rstr_names": "Methanesulfonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "n2o_e": -1.0
+            },
+            "rstr": "n2o_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Nitrous oxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_n2o_e",
+            "rstr_names": "Nitrous oxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "nac_e": -1.0
+            },
+            "rstr": "nac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Nicotinate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_nac_e",
+            "rstr_names": "Nicotinate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "butso3_e": -1.0
+            },
+            "rstr": "butso3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Butanesulfonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_butso3_e",
+            "rstr_names": "Butanesulfonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cbi_e": -1.0
+            },
+            "rstr": "cbi_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cobinamide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cbi_e",
+            "rstr_names": "Cobinamide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cytd_e": -1.0
+            },
+            "rstr": "cytd_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cytidine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cytd_e",
+            "rstr_names": "Cytidine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cd2_e": -1.0
+            },
+            "rstr": "cd2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cadmium exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cd2_e",
+            "rstr_names": "Cadmium --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cgly_e": -1.0
+            },
+            "rstr": "cgly_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Cys-Gly exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cgly_e",
+            "rstr_names": "Cys Gly C5H10N2O3S --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "nmn_e": -1.0
+            },
+            "rstr": "nmn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "NMN exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_nmn_e",
+            "rstr_names": "NMN C11H14N2O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "no_e": -1.0
+            },
+            "rstr": "no_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Nitric oxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_no_e",
+            "rstr_names": "Nitric oxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "no2_e": -1.0
+            },
+            "rstr": "no2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Nitrite exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_no2_e",
+            "rstr_names": "Nitrite --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "no3_e": -1.0
+            },
+            "rstr": "no3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Nitrate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_no3_e",
+            "rstr_names": "Nitrate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "novbcn_e": -1.0
+            },
+            "rstr": "novbcn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Novobiocin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_novbcn_e",
+            "rstr_names": "Novobiocin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "o16a4colipa_e": -1.0
+            },
+            "rstr": "o16a4colipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(O16 antigen)x4 core oligosaccharide lipid A exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_o16a4colipa_e",
+            "rstr_names": "(O16 antigen)x4 core oligosaccharide lipid A --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "o2_e": -1.0
+            },
+            "rstr": "o2_e <-- ",
+            "gene_reaction_rule": "",
+            "lower_bound": -1000,
+            "name": "O2 exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_o2_e",
+            "rstr_names": "O2 O2 <-- ",
+            "upper_bound": 0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "o2s_e": -1.0
+            },
+            "rstr": "o2s_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Superoxide anion exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_o2s_e",
+            "rstr_names": "Superoxide anion --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ocdca_e": -1.0
+            },
+            "rstr": "ocdca_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Octadecanoate (n-C18:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ocdca_e",
+            "rstr_names": "Octadecanoate (n-C18:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ocdcea_e": -1.0
+            },
+            "rstr": "ocdcea_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Octadecenoate (n-C18:1) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ocdcea_e",
+            "rstr_names": "Octadecenoate (n-C18:1) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "octa_e": -1.0
+            },
+            "rstr": "octa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Octanoate (n-C8:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_octa_e",
+            "rstr_names": "Octanoate (n-C8:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "orn_e": -1.0
+            },
+            "rstr": "orn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ornithine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_orn_e",
+            "rstr_names": "Ornithine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "orot_e": -1.0
+            },
+            "rstr": "orot_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Orotate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_orot_e",
+            "rstr_names": "Orotate C5H3N2O4 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pacald_e": -1.0
+            },
+            "rstr": "pacald_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phenylacetaldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pacald_e",
+            "rstr_names": "Phenylacetaldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "peamn_e": -1.0
+            },
+            "rstr": "peamn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phenethylamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_peamn_e",
+            "rstr_names": "Phenethylamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "phe__L_e": -1.0
+            },
+            "rstr": "phe__L_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "L-Phenylalanine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_phe__L_e",
+            "rstr_names": "L-Phenylalanine <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pheme_e": -1.0
+            },
+            "rstr": "pheme_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Protoheme exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pheme_e",
+            "rstr_names": "Protoheme C34H30FeN4O4 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "chol_e": -1.0
+            },
+            "rstr": "chol_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Choline exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_chol_e",
+            "rstr_names": "Choline C5H14NO --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "chtbs_e": -1.0
+            },
+            "rstr": "chtbs_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Chitobiose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_chtbs_e",
+            "rstr_names": "N,N'-diacetylchitobiose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "cit_e": -1.0
+            },
+            "rstr": "cit_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Citrate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_cit_e",
+            "rstr_names": "Citrate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dad_2_e": -1.0
+            },
+            "rstr": "dad_2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Deoxyadenosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dad_2_e",
+            "rstr_names": "Deoxyadenosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pnto__R_e": -1.0
+            },
+            "rstr": "pnto__R_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(R)-Pantothenate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pnto__R_e",
+            "rstr_names": "(R)-Pantothenate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ppa_e": -1.0
+            },
+            "rstr": "ppa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Propionate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ppa_e",
+            "rstr_names": "Propionate (n-C3:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "damp_e": -1.0
+            },
+            "rstr": "damp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DAMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_damp_e",
+            "rstr_names": "DAMP C10H12N5O6P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ppal_e": -1.0
+            },
+            "rstr": "ppal_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Propanal exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ppal_e",
+            "rstr_names": "Propanal --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dca_e": -1.0
+            },
+            "rstr": "dca_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Decanoate (n-C10:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dca_e",
+            "rstr_names": "Decanoate (n-C10:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pppn_e": -1.0
+            },
+            "rstr": "pppn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phenylpropanoate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pppn_e",
+            "rstr_names": "Phenylpropanoate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ppt_e": -1.0
+            },
+            "rstr": "ppt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phosphonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ppt_e",
+            "rstr_names": "Phosphonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dcmp_e": -1.0
+            },
+            "rstr": "dcmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DCMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dcmp_e",
+            "rstr_names": "DCMP C9H12N3O7P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pro__L_e": -1.0
+            },
+            "rstr": "pro__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Proline exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pro__L_e",
+            "rstr_names": "L-Proline --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dcyt_e": -1.0
+            },
+            "rstr": "dcyt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Deoxycytidine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dcyt_e",
+            "rstr_names": "Deoxycytidine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "progly_e": -1.0
+            },
+            "rstr": "progly_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Prolinylglycine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_progly_e",
+            "rstr_names": "L-Prolinylglycine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "psclys_e": -1.0
+            },
+            "rstr": "psclys_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Psicoselysine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_psclys_e",
+            "rstr_names": "Psicoselysine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ddca_e": -1.0
+            },
+            "rstr": "ddca_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Dodecanoate (n-C12:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ddca_e",
+            "rstr_names": "Dodecanoate (n-C12:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pser__L_e": -1.0
+            },
+            "rstr": "pser__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "O-Phospho-L-serine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pser__L_e",
+            "rstr_names": "O-Phospho-L-serine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ptrc_e": -1.0
+            },
+            "rstr": "ptrc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Putrescine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ptrc_e",
+            "rstr_names": "Putrescine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dgmp_e": -1.0
+            },
+            "rstr": "dgmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DGMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dgmp_e",
+            "rstr_names": "DGMP C10H12N5O7P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dgsn_e": -1.0
+            },
+            "rstr": "dgsn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Deoxyguanosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dgsn_e",
+            "rstr_names": "Deoxyguanosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "val__L_e": -1.0
+            },
+            "rstr": "val__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Valine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_val__L_e",
+            "rstr_names": "L-Valine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xan_e": -1.0
+            },
+            "rstr": "xan_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Xanthine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xan_e",
+            "rstr_names": "Xanthine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dha_e": -1.0
+            },
+            "rstr": "dha_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Dihydroxyacetone exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dha_e",
+            "rstr_names": "Dihydroxyacetone --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xmp_e": -1.0
+            },
+            "rstr": "xmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Xanthosine 5'-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xmp_e",
+            "rstr_names": "Xanthosine 5'-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dimp_e": -1.0
+            },
+            "rstr": "dimp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DIMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dimp_e",
+            "rstr_names": "DIMP C10H12N4O7P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "din_e": -1.0
+            },
+            "rstr": "din_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Deoxyinosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_din_e",
+            "rstr_names": "Deoxyinosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xtsn_e": -1.0
+            },
+            "rstr": "xtsn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Xanthosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xtsn_e",
+            "rstr_names": "Xanthosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pydam_e": -1.0
+            },
+            "rstr": "pydam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Pyridoxamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pydam_e",
+            "rstr_names": "Pyridoxamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xyl__D_e": -1.0
+            },
+            "rstr": "xyl__D_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "D-Xylose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xyl__D_e",
+            "rstr_names": "D-Xylose <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "xylu__L_e": -1.0
+            },
+            "rstr": "xylu__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Xylulose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_xylu__L_e",
+            "rstr_names": "L-Xylulose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pydx_e": -1.0
+            },
+            "rstr": "pydx_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Pyridoxal exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pydx_e",
+            "rstr_names": "Pyridoxal --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pydxn_e": -1.0
+            },
+            "rstr": "pydxn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Pyridoxine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pydxn_e",
+            "rstr_names": "Pyridoxine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_e": -1.0
+            },
+            "rstr": "pyr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Pyruvate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_pyr_e",
+            "rstr_names": "Pyruvate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "quin_e": -1.0
+            },
+            "rstr": "quin_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Quinate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_quin_e",
+            "rstr_names": "Quinate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "r5p_e": -1.0
+            },
+            "rstr": "r5p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Alpha-D-Ribose 5-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_r5p_e",
+            "rstr_names": "Alpha-D-Ribose 5-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "rfamp_e": -1.0
+            },
+            "rstr": "rfamp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Rifampin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_rfamp_e",
+            "rstr_names": "Rifampin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "rib__D_e": -1.0
+            },
+            "rstr": "rib__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Ribose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_rib__D_e",
+            "rstr_names": "D-Ribose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "rmn_e": -1.0
+            },
+            "rstr": "rmn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Rhamnose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_rmn_e",
+            "rstr_names": "L-Rhamnose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "sbt__D_e": -1.0
+            },
+            "rstr": "sbt__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Sorbitol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_sbt__D_e",
+            "rstr_names": "D-Sorbitol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ser__D_e": -1.0
+            },
+            "rstr": "ser__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Serine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ser__D_e",
+            "rstr_names": "D-Serine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ser__L_e": -1.0
+            },
+            "rstr": "ser__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Serine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ser__L_e",
+            "rstr_names": "L-Serine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "skm_e": -1.0
+            },
+            "rstr": "skm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Shikimate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_skm_e",
+            "rstr_names": "Shikimate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dms_e": -1.0
+            },
+            "rstr": "dms_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Dimethyl sulfide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dms_e",
+            "rstr_names": "Dimethyl sulfide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "so2_e": -1.0
+            },
+            "rstr": "so2_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sulfur dioxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_so2_e",
+            "rstr_names": "Sulfur dioxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "so3_e": -1.0
+            },
+            "rstr": "so3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sulfite exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_so3_e",
+            "rstr_names": "Sulfite --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dmso_e": -1.0
+            },
+            "rstr": "dmso_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Dimethyl sulfoxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dmso_e",
+            "rstr_names": "Dimethyl sulfoxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "spmd_e": -1.0
+            },
+            "rstr": "spmd_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Spermidine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_spmd_e",
+            "rstr_names": "Spermidine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "succ_e": -1.0
+            },
+            "rstr": "succ_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Succinate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_succ_e",
+            "rstr_names": "Succinate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "sucr_e": -1.0
+            },
+            "rstr": "sucr_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sucrose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_sucr_e",
+            "rstr_names": "Sucrose C12H22O11 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "sulfac_e": -1.0
+            },
+            "rstr": "sulfac_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sulfoacetate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_sulfac_e",
+            "rstr_names": "Sulfoacetate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tartr__D_e": -1.0
+            },
+            "rstr": "tartr__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-tartrate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tartr__D_e",
+            "rstr_names": "D-tartrate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dopa_e": -1.0
+            },
+            "rstr": "dopa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Dopamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dopa_e",
+            "rstr_names": "Dopamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tartr__L_e": -1.0
+            },
+            "rstr": "tartr__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-tartrate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tartr__L_e",
+            "rstr_names": "L-tartrate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "taur_e": -1.0
+            },
+            "rstr": "taur_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Taurine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_taur_e",
+            "rstr_names": "Taurine C2H7NO3S --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tcynt_e": -1.0
+            },
+            "rstr": "tcynt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Thiocyanate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tcynt_e",
+            "rstr_names": "Thiocyanate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "doxrbcn_e": -1.0
+            },
+            "rstr": "doxrbcn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Doxorubicin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_doxrbcn_e",
+            "rstr_names": "Doxorubicin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "thm_e": -1.0
+            },
+            "rstr": "thm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Thiamin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_thm_e",
+            "rstr_names": "Thiamin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "thr__L_e": -1.0
+            },
+            "rstr": "thr__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Threonine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_thr__L_e",
+            "rstr_names": "L-Threonine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dtmp_e": -1.0
+            },
+            "rstr": "dtmp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DTMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dtmp_e",
+            "rstr_names": "DTMP C10H13N2O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "thrp_e": -1.0
+            },
+            "rstr": "thrp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Threonine O-3-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_thrp_e",
+            "rstr_names": "L-Threonine O-3-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "thym_e": -1.0
+            },
+            "rstr": "thym_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Thymine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_thym_e",
+            "rstr_names": "Thymine C5H6N2O2 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "dump_e": -1.0
+            },
+            "rstr": "dump_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "DUMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_dump_e",
+            "rstr_names": "DUMP C9H11N2O8P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "thymd_e": -1.0
+            },
+            "rstr": "thymd_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Thymidine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_thymd_e",
+            "rstr_names": "Thymidine C10H14N2O5 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tma_e": -1.0
+            },
+            "rstr": "tma_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Trimethylamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tma_e",
+            "rstr_names": "Trimethylamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "duri_e": -1.0
+            },
+            "rstr": "duri_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Deoxyuridine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_duri_e",
+            "rstr_names": "Deoxyuridine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tmao_e": -1.0
+            },
+            "rstr": "tmao_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Trimethylamine N-oxide exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tmao_e",
+            "rstr_names": "Trimethylamine N-oxide --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tre_e": -1.0
+            },
+            "rstr": "tre_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Trehalose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tre_e",
+            "rstr_names": "Trehalose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "trp__L_e": -1.0
+            },
+            "rstr": "trp__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Tryptophan exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_trp__L_e",
+            "rstr_names": "L-Tryptophan --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tsul_e": -1.0
+            },
+            "rstr": "tsul_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Thiosulfate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tsul_e",
+            "rstr_names": "Thiosulfate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "eca4colipa_e": -1.0
+            },
+            "rstr": "eca4colipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "(enterobacterial common antigen)x4 core oligosaccharide lipid A exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_eca4colipa_e",
+            "rstr_names": "(enterobacterial common antigen)x4 core oligosaccharide lipid A --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ttdca_e": -1.0
+            },
+            "rstr": "ttdca_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Tetradecanoate (n-C14:0) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ttdca_e",
+            "rstr_names": "Tetradecanoate (n-C14:0) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ttdcea_e": -1.0
+            },
+            "rstr": "ttdcea_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Tetradecenoate (n-C14:1) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ttdcea_e",
+            "rstr_names": "Tetradecenoate (n-C14:1) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "enlipa_e": -1.0
+            },
+            "rstr": "enlipa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phosphoethanolamine KDO(2)-lipid (A) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_enlipa_e",
+            "rstr_names": "Phosphoethanolamine KDO(2)-lipid (A) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ttrcyc_e": -1.0
+            },
+            "rstr": "ttrcyc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Tetracycline exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ttrcyc_e",
+            "rstr_names": "Tetracycline --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "enter_e": -1.0
+            },
+            "rstr": "enter_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Enterochelin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_enter_e",
+            "rstr_names": "Enterochelin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "etha_e": -1.0
+            },
+            "rstr": "etha_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ethanolamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_etha_e",
+            "rstr_names": "Ethanolamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tym_e": -1.0
+            },
+            "rstr": "tym_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Tyramine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tym_e",
+            "rstr_names": "Tyramine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ethso3_e": -1.0
+            },
+            "rstr": "ethso3_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ethanesulfonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ethso3_e",
+            "rstr_names": "Ethanesulfonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tyr__L_e": -1.0
+            },
+            "rstr": "tyr__L_e <=> ",
+            "gene_reaction_rule": "",
+            "lower_bound": -10,
+            "name": "L-Tyrosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tyr__L_e",
+            "rstr_names": "L-Tyrosine <=> ",
+            "upper_bound": 1000,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "tyrp_e": -1.0
+            },
+            "rstr": "tyrp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Phosphotyrosine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_tyrp_e",
+            "rstr_names": "Phosphotyrosine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "uacgam_e": -1.0
+            },
+            "rstr": "uacgam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UDP-N-acetyl-D-glucosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_uacgam_e",
+            "rstr_names": "UDP-N-acetyl-D-glucosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "udpacgal_e": -1.0
+            },
+            "rstr": "udpacgal_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UDP-N-acetyl-D-galactosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_udpacgal_e",
+            "rstr_names": "UDP-N-acetyl-D-galactosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "udpg_e": -1.0
+            },
+            "rstr": "udpg_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UDPglucose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_udpg_e",
+            "rstr_names": "UDPglucose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "udpgal_e": -1.0
+            },
+            "rstr": "udpgal_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UDPgalactose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_udpgal_e",
+            "rstr_names": "UDPgalactose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "etoh_e": -1.0
+            },
+            "rstr": "etoh_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ethanol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_etoh_e",
+            "rstr_names": "Ethanol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "udpglcur_e": -1.0
+            },
+            "rstr": "udpglcur_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UDP-D-glucuronate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_udpglcur_e",
+            "rstr_names": "UDP-D-glucuronate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ump_e": -1.0
+            },
+            "rstr": "ump_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "UMP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ump_e",
+            "rstr_names": "UMP C9H11N2O9P --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "f6p_e": -1.0
+            },
+            "rstr": "f6p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-fructose 6-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_f6p_e",
+            "rstr_names": "D-Fructose 6-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "ura_e": -1.0
+            },
+            "rstr": "ura_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Uracil exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_ura_e",
+            "rstr_names": "Uracil --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "urea_e": -1.0
+            },
+            "rstr": "urea_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Urea exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_urea_e",
+            "rstr_names": "Urea CH4N2O --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fald_e": -1.0
+            },
+            "rstr": "fald_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Formaldehyde exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fald_e",
+            "rstr_names": "Formaldehyde --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "uri_e": -1.0
+            },
+            "rstr": "uri_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Uridine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_uri_e",
+            "rstr_names": "Uridine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fe3dcit_e": -1.0
+            },
+            "rstr": "fe3dcit_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fe(III)dicitrate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fe3dcit_e",
+            "rstr_names": "Fe(III)dicitrate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fe3dhbzs_e": -1.0
+            },
+            "rstr": "fe3dhbzs_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ferric 2,3-dihydroxybenzoylserine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fe3dhbzs_e",
+            "rstr_names": "Ferric 2,3-dihydroxybenzoylserine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fe3hox_e": -1.0
+            },
+            "rstr": "fe3hox_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fe(III)hydroxamate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fe3hox_e",
+            "rstr_names": "Fe(III)hydroxamate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fe3hox_un_e": -1.0
+            },
+            "rstr": "fe3hox_un_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fe(III)hydoxamate, unloaded exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fe3hox_un_e",
+            "rstr_names": "Fe(III)hydoxamate, unloaded --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fecrm_e": -1.0
+            },
+            "rstr": "fecrm_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ferrichrome exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fecrm_e",
+            "rstr_names": "Ferrichrome --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fecrm_un_e": -1.0
+            },
+            "rstr": "fecrm_un_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ferrichrome minus Fe(III) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fecrm_un_e",
+            "rstr_names": "Ferrichrome minus Fe(III) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "feenter_e": -1.0
+            },
+            "rstr": "feenter_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fe-enterobactin exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_feenter_e",
+            "rstr_names": "Fe-enterobactin --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "feoxam_e": -1.0
+            },
+            "rstr": "feoxam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ferroxamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_feoxam_e",
+            "rstr_names": "Generic ferrioxamine-Fe-III --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "feoxam_un_e": -1.0
+            },
+            "rstr": "feoxam_un_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Ferroxamine minus Fe(3) exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_feoxam_un_e",
+            "rstr_names": "Ferroxamine minus Fe(3) --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "for_e": -1.0
+            },
+            "rstr": "for_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Formate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_for_e",
+            "rstr_names": "Formate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fru_e": -1.0
+            },
+            "rstr": "fru_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Fructose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fru_e",
+            "rstr_names": "D-Fructose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "frulys_e": -1.0
+            },
+            "rstr": "frulys_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fructoselysine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_frulys_e",
+            "rstr_names": "Fructoselysine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fruur_e": -1.0
+            },
+            "rstr": "fruur_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Fructuronate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fruur_e",
+            "rstr_names": "D-Fructuronate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fuc__L_e": -1.0
+            },
+            "rstr": "fuc__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Fucose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fuc__L_e",
+            "rstr_names": "L-Fucose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fum_e": -1.0
+            },
+            "rstr": "fum_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fumarate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fum_e",
+            "rstr_names": "Fumarate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fusa_e": -1.0
+            },
+            "rstr": "fusa_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Fusidic acid exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_fusa_e",
+            "rstr_names": "Fusidic acid --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g1p_e": -1.0
+            },
+            "rstr": "g1p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucose 1-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g1p_e",
+            "rstr_names": "D-Glucose 1-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g3pc_e": -1.0
+            },
+            "rstr": "g3pc_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sn-Glycero-3-phosphocholine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g3pc_e",
+            "rstr_names": "Sn-Glycero-3-phosphocholine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g3pe_e": -1.0
+            },
+            "rstr": "g3pe_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sn-Glycero-3-phosphoethanolamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g3pe_e",
+            "rstr_names": "Sn-Glycero-3-phosphoethanolamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "acgam6p_c": 1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "acgam_p": -1.0
+            },
+            "rstr": "acgam_p + pep_c --> acgam6p_c + pyr_c",
+            "gene_reaction_rule": "(b2417 and b1101 and b2415 and b2416) or (b0679 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "N-Acetyl-D-glucosamine transport via PEP:Pyr PTS  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACGAptspp",
+            "rstr_names": "N-Acetyl-D-glucosamine + Phosphoenolpyruvate --> N-Acetyl-D-glucosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g3pg_e": -1.0
+            },
+            "rstr": "g3pg_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycerophosphoglycerol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g3pg_e",
+            "rstr_names": "Glycerophosphoglycerol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g3pi_e": -1.0
+            },
+            "rstr": "g3pi_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Sn-Glycero-3-phospho-1-inositol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g3pi_e",
+            "rstr_names": "Sn-Glycero-3-phospho-1-inositol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g3ps_e": -1.0
+            },
+            "rstr": "g3ps_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Glycerophosphoserine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g3ps_e",
+            "rstr_names": "Glycerophosphoserine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "g6p_e": -1.0
+            },
+            "rstr": "g6p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucose 6-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_g6p_e",
+            "rstr_names": "D-Glucose 6-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "acmana_p": -1.0,
+                "acmanap_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "acmana_p + pep_c --> acmanap_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "N-acetyl-D-mannosamine transport via PTS  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACMANAptspp",
+            "rstr_names": "N-Acetyl-D-mannosamine + Phosphoenolpyruvate --> N-Acetyl-D-mannosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gal_e": -1.0
+            },
+            "rstr": "gal_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Galactose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gal_e",
+            "rstr_names": "D-Galactose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "acmum_p": -1.0,
+                "acmum6p_c": 1.0
+            },
+            "rstr": "acmum_p + pep_c --> acmum6p_c + pyr_c",
+            "gene_reaction_rule": "b2417 and b2429 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "N-acetylmuramate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ACMUMptspp",
+            "rstr_names": "N-Acetylmuramate + Phosphoenolpyruvate --> N-acetylmuramate 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gal_bD_e": -1.0
+            },
+            "rstr": "gal_bD_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Beta D-Galactose exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gal_bD_e",
+            "rstr_names": "Beta D-Galactose --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gal1p_e": -1.0
+            },
+            "rstr": "gal1p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Alpha-D-Galactose 1-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gal1p_e",
+            "rstr_names": "Alpha-D-Galactose 1-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "galct__D_e": -1.0
+            },
+            "rstr": "galct__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Galactarate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_galct__D_e",
+            "rstr_names": "D-Galactarate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "galctn__D_e": -1.0
+            },
+            "rstr": "galctn__D_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Galactonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_galctn__D_e",
+            "rstr_names": "D-Galactonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "galctn__L_e": -1.0
+            },
+            "rstr": "galctn__L_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "L-Galactonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_galctn__L_e",
+            "rstr_names": "L-Galactonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "galt_e": -1.0
+            },
+            "rstr": "galt_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Galactitol exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_galt_e",
+            "rstr_names": "Galactitol --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "galur_e": -1.0
+            },
+            "rstr": "galur_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Galacturonate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_galur_e",
+            "rstr_names": "D-Galacturonate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gam_e": -1.0
+            },
+            "rstr": "gam_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucosamine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gam_e",
+            "rstr_names": "D-Glucosamine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gam6p_e": -1.0
+            },
+            "rstr": "gam6p_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "D-Glucosamine 6-phosphate exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gam6p_e",
+            "rstr_names": "D-Glucosamine 6-phosphate --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gbbtn_e": -1.0
+            },
+            "rstr": "gbbtn_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "Gamma-butyrobetaine exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gbbtn_e",
+            "rstr_names": "Gamma-butyrobetaine --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gdp_e": -1.0
+            },
+            "rstr": "gdp_e --> ",
+            "gene_reaction_rule": "",
+            "lower_bound": 0.0,
+            "name": "GDP exchange",
+            "subsystem": "Extracellular exchange",
+            "id": "EX_gdp_e",
+            "rstr_names": "GDP C10H12N5O11P2 --> ",
+            "upper_bound": 1000.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "ascb6p_c": 1.0,
+                "ascb__L_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "ascb__L_p + pep_c --> ascb6p_c + pyr_c",
+            "gene_reaction_rule": "b2415 and b2416 and b4195 and b4194 and b4193",
+            "lower_bound": 0.0,
+            "name": "L-ascorbate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ASCBptspp",
+            "rstr_names": "L-Ascorbate + Phosphoenolpyruvate --> L-ascorbate-6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pphn_c": 1.0,
+                "chor_c": -1.0
+            },
+            "rstr": "chor_c --> pphn_c",
+            "gene_reaction_rule": "b2599 or b2600",
+            "lower_bound": 0.0,
+            "name": "Chorismate mutase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "CHORM",
+            "rstr_names": "Chorismate --> Prephenate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "chtbs_p": -1.0,
+                "chtbs6p_c": 1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "chtbs_p + pep_c --> chtbs6p_c + pyr_c",
+            "gene_reaction_rule": "b2416",
+            "lower_bound": 0.0,
+            "name": "Chitobiose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "CHTBSptspp",
+            "rstr_names": "N,N'-diacetylchitobiose + Phosphoenolpyruvate --> Diacetylchitobiose-6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "arbt_p": -1.0,
+                "pep_c": -1.0,
+                "arbt6p_c": 1.0
+            },
+            "rstr": "arbt_p + pep_c --> arbt6p_c + pyr_c",
+            "gene_reaction_rule": "(b3722 and b2415 and b2416) or (b2715 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "Arbutin transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "ARBTptspp",
+            "rstr_names": "Arbutin C12H16O7 + Phosphoenolpyruvate --> Arbutin 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "dhap_c": 1.0,
+                "dha_c": -1.0
+            },
+            "rstr": "dha_c + pep_c --> dhap_c + pyr_c",
+            "gene_reaction_rule": "b1200 and b1199 and b1198 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Dihydroxyacetone phosphotransferase",
+            "subsystem": "Alternate Carbon Metabolism",
+            "id": "DHAPT",
+            "rstr_names": "Dihydroxyacetone + Phosphoenolpyruvate --> Dihydroxyacetone phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "f6p_c": 1.0,
+                "fru_p": -1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "fru_p + pep_c --> f6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "FRUpts2pp",
+            "rstr_names": "D-Fructose + Phosphoenolpyruvate --> D-Fructose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "fru_p": -1.0,
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "f1p_c": 1.0
+            },
+            "rstr": "fru_p + pep_c --> f1p_c + pyr_c",
+            "gene_reaction_rule": "b2167 and b2169 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-fructose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "FRUptspp",
+            "rstr_names": "D-Fructose + Phosphoenolpyruvate --> D-Fructose 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "galt_p": -1.0,
+                "galt1p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "galt_p + pep_c --> galt1p_c + pyr_c",
+            "gene_reaction_rule": "b2094 and b2093 and b2092 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Galactitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GALTptspp",
+            "rstr_names": "Galactitol + Phosphoenolpyruvate --> Galactitol 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "glc__D_p": -1.0,
+                "pyr_c": 1.0,
+                "g6p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "glc__D_p + pep_c --> g6p_c + pyr_c",
+            "gene_reaction_rule": "(b2417 and b1621 and b2415 and b2416) or (b2417 and b1101 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)",
+            "lower_bound": 0.0,
+            "name": "D-glucose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GLCptspp",
+            "rstr_names": "D-Glucose + Phosphoenolpyruvate --> D-Glucose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "gam6p_c": 1.0,
+                "pyr_c": 1.0,
+                "gam_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "gam_p + pep_c --> gam6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-glucosamine transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "GAMptspp",
+            "rstr_names": "D-Glucosamine + Phosphoenolpyruvate --> D-Glucosamine 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "malt6p_c": 1.0,
+                "pyr_c": 1.0,
+                "malt_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "malt_p + pep_c --> malt6p_c + pyr_c",
+            "gene_reaction_rule": "b2417 and b1621 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Maltose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MALTptspp",
+            "rstr_names": "Maltose C12H22O11 + Phosphoenolpyruvate --> Maltose 6'-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "pep_c": -1.0,
+                "man6pglyc_c": 1.0,
+                "manglyc_p": -1.0
+            },
+            "rstr": "manglyc_p + pep_c --> man6pglyc_c + pyr_c",
+            "gene_reaction_rule": "b0731 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "2-O-alpha-mannosyl-D-glycerate transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MANGLYCptspp",
+            "rstr_names": "2(alpha-D-Mannosyl)-D-glycerate + Phosphoenolpyruvate --> 2(alpha-D-Mannosyl-6-phosphate)-D-glycerate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "man6p_c": 1.0,
+                "man_p": -1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "man_p + pep_c --> man6p_c + pyr_c",
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "D-mannose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MANptspp",
+            "rstr_names": "D-Mannose + Phosphoenolpyruvate --> D-Mannose 6-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "mnl_p": -1.0,
+                "mnl1p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "mnl_p + pep_c --> mnl1p_c + pyr_c",
+            "gene_reaction_rule": "b3599 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Mannitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "MNLptspp",
+            "rstr_names": "D-Mannitol + Phosphoenolpyruvate --> D-Mannitol 1-phosphate + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "co2_c": 1.0,
+                "pphn_c": -1.0,
+                "34hpp_c": 1.0,
+                "nadh_c": 1.0,
+                "nad_c": -1.0
+            },
+            "rstr": "nad_c + pphn_c --> 34hpp_c + co2_c + nadh_c",
+            "gene_reaction_rule": "b2600",
+            "lower_bound": 0.0,
+            "name": "Prephenate dehydrogenase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "PPND",
+            "rstr_names": "Nicotinamide adenine dinucleotide + Prephenate --> 3-(4-Hydroxyphenyl)pyruvate + CO2 CO2 + Nicotinamide adenine dinucleotide - reduced",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "h2o_c": 1.0,
+                "co2_c": 1.0,
+                "phpyr_c": 1.0,
+                "h_c": -1.0,
+                "pphn_c": -1.0
+            },
+            "rstr": "h_c + pphn_c --> co2_c + h2o_c + phpyr_c",
+            "gene_reaction_rule": "b2599",
+            "lower_bound": 0.0,
+            "name": "Prephenate dehydratase",
+            "subsystem": "Tyrosine, Tryptophan, and Phenylalanine Metabolism",
+            "id": "PPNDH",
+            "rstr_names": "H+ + Prephenate --> CO2 CO2 + H2O H2O + Phenylpyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "atp_c": 1.0,
+                "pyr_c": 1.0,
+                "h_c": -1.0,
+                "pep_c": -1.0,
+                "adp_c": -1.0
+            },
+            "rstr": "adp_c + h_c + pep_c --> atp_c + pyr_c",
+            "gene_reaction_rule": "b1854 or b1676",
+            "lower_bound": 0.0,
+            "name": "Pyruvate kinase",
+            "subsystem": "Glycolysis/Gluconeogenesis",
+            "id": "PYK",
+            "rstr_names": "ADP C10H12N5O10P2 + H+ + Phosphoenolpyruvate --> ATP C10H12N5O13P3 + Pyruvate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "sbt__D_p": -1.0,
+                "pyr_c": 1.0,
+                "sbt6p_c": 1.0,
+                "pep_c": -1.0
+            },
+            "rstr": "pep_c + sbt__D_p --> pyr_c + sbt6p_c",
+            "gene_reaction_rule": "b2415 and b2416 and b2702 and b2704 and b2703",
+            "lower_bound": 0.0,
+            "name": "D-sorbitol transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "SBTptspp",
+            "rstr_names": "Phosphoenolpyruvate + D-Sorbitol --> Pyruvate + D-Sorbitol 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "sucr_p": -1.0,
+                "pep_c": -1.0,
+                "suc6p_c": 1.0
+            },
+            "rstr": "pep_c + sucr_p --> pyr_c + suc6p_c",
+            "gene_reaction_rule": "b2417 and b2429 and b2415 and b2416",
+            "lower_bound": 0.0,
+            "name": "Sucrose transport via PEP:Pyr  (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "SUCptspp",
+            "rstr_names": "Phosphoenolpyruvate + Sucrose C12H22O11 --> Pyruvate + Sucrose 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        },
+        {
+            "metabolites": {
+                "pyr_c": 1.0,
+                "tre_p": -1.0,
+                "pep_c": -1.0,
+                "tre6p_c": 1.0
+            },
+            "rstr": "pep_c + tre_p --> pyr_c + tre6p_c",
+            "gene_reaction_rule": "b2417 and b2415 and b2416 and b4240",
+            "lower_bound": 0.0,
+            "name": "Trehalose transport via PEP:Pyr PTS (periplasm)",
+            "subsystem": "Transport, Inner Membrane",
+            "id": "TREptspp",
+            "rstr_names": "Phosphoenolpyruvate + Trehalose --> Pyruvate + Alpha,alpha'-Trehalose 6-phosphate",
+            "upper_bound": 0.0,
+            "objective_coefficient": 0
+        }
+    ],
+    "removed_metabolites": [],
+    "description": "",
+    "id": "CTF5mal",
+    "name": "CTF5 base strain with malate",
+    "base_model": "iJO1366.json",
+    "genes": [],
+    "conditions": "glc+xyl+mal_M9_microaero",
+    "parent": null,
+    "removed_reactions": []
+}

@@ -5,9 +5,8 @@
     "tests_dir": "tests",
     "design_dir": "designs",
     "conditions_file": "model_conditions.json",
-    "default_model": "e_coli_core.json",
+    "default_model": "iJO1366.json",
     "models": [
-        "e_coli_core.json",
         "iJO1366.json"
     ],
     "name": "Untitled"
