@@ -1,9 +1,21 @@
-{ "Dahms": {
-  "description": "reactions in Dahms pathway",
-  "conditions": ["glc+xyl_M9_aero", "glc_M9_aero", "xyl_M9_aero"],
-  "designs": ["G1x"],
-  "required_reactions": ["xdh", "xylC", "yjhG", "yjhH"],
-  "models": [],
-  "reaction_fluxes": {}
-}
+{
+  "Dahms": {
+    "description": "reactions in Dahms pathway",
+    "conditions": [
+      "glc+xyl_M9_aero",
+      "glc_M9_aero",
+      "xyl_M9_aero"
+    ],
+    "designs": [
+      "G1x"
+    ],
+    "required_reactions": [
+      "xdh",
+      "xylC",
+      "yjhG",
+      "yjhH"
+    ],
+    "models": [],
+    "reaction_fluxes": {}
+  }
 }
